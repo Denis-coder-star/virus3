@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/gilroy.css">
+	<link rel="stylesheet" href="css/bebas_neue_family.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<header class="header">
+		<div class="preloader" id="preloader">
+		<p>Пожалуйста, подождите</p>
+		<div class="loader">
+			<div id="cube-loader">
+	    		<div class="caption">
+	      			<div class="cube-loader">
+				        <div class="cube loader-1"></div>
+				        <div class="cube loader-2"></div>
+				        <div class="cube loader-4"></div>
+				        <div class="cube loader-3"></div>
+	     			 </div>
+	   			</div>
+	 	 	</div>
+	 	</div>
+		</div>
+		<div class="container">
+			<div class="header-body">
+				<div class="header-logo">
+					<img src="img/logo.png" alt="">
+					<div class="logo-text">
+						<span>plague History</span>
+						<p>История заболеваний</p>
+					</div>
+				</div>
+				<div class="burger-menu-wrapper">
+				<svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="60" onclick="this.classList.toggle('active')">
+  					<path
+					    class="line top"
+					    d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
+					<path
+				        class="line middle"
+				        d="m 70,50 h -40" />
+  					<path
+				        class="line bottom"
+				        d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" />
+					</svg>
+				</div>
+				<div class="menu-mobile">
+				<nav>
+					<ul class="menu">
+						<li class="menu__item">
+							<a href="#epidemic" class="menu__link">Виды</a>
+						</li>
+						<li class="menu__item">
+							<a href="#history" class="menu__link">История</a>
+						</li>
+						<li class="menu__item">
+							<a href="#symptoms" class="menu__link">Симптомы</a>
+						</li>
+						<li class="menu__item">
+							<a href="#statistics" class="menu__link">Статистика</a>
+						</li>
+						<li class="menu__item">
+							<a href="#prevention" class="menu__link">Профилактика</a>
+						</li>
+					</ul>
+				</nav>
+				</div>
+				<div class="menu-button">
+					<a href="#" class="menu-btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="header-block">
+				<div class="header-offer">
+					<h1>
+						Всё-ли вы знаете про 
+                        Массовые эпидемии?
+					</h1>
+					<p>
+						На данном ресурсе представлена полная информация
+                        обо всех массовых эпидемиях, напрямую коснувщихся
+                        и перевернувших историю нашей страны
+					</p>
+					<div class="offer-buttons">
+						<div class="offer-button">
+							<a href="#" class="offer-btn">Ознакомиться</a>
+						</div>
+						<div class="offer-button">
+							<a href="#" class="offer-btn offer-btn-two">Профилактика</a>
+						</div>
+					</div>
+					<img src="img/virus1.png" alt="" class="virus1">
+					<img src="img/virus2.png" alt="" class="virus2">
+					<img src="img/virus3.png" alt="" class="virus3">
+					<img src="img/virus4.png" alt="" class="virus4">
+					<a href="#" class="covid">COVID-19</a>
+					<a href="#" class="chuma">Чума</a>
+				</div>
+				<img src="img/doctor.png" alt="" class="doctor">
+			</div>
+		</div>
+	</header>
+	<section class="epidemic" id="epidemic">
+		<div class="container">
+			<h2
+			data-aos="fade-right"
+			data-aos-duration="800"
+			data-aos-easing="linear">
+			Виды эпидемий</h2>
+			<div class="epidemic-body">
+				<div class="epidemic-block"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-easing="linear">
+					<span>
+						<img src="img/chuma.png" alt="">
+					</span>
+					<h3>Чума</h3>
+					<p>
+						Тяжелое инфекционное заболевание, характеризуется поражением лимфоузлов, легких и других органов
+					</p>
+				</div>
+				<div class="epidemic-block"
+				data-aos="fade-down"
+				data-aos-duration="1000"
+				data-aos-easing="linear">
+					<span>
+						<img src="img/cholera.png" alt="">
+					</span>
+					<h3>Холера</h3>
+					<p>
+						Острая кишечная, антропонозная инфекция, вызывает поражение кишечника, рвоту, диарею
+					</p>
+				</div>
+				<div class="epidemic-block"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-easing="linear">
+					<span>
+						<img src="img/smallpox.png" alt="">
+					</span>
+					<h3>Оспа</h3>
+					<p>
+						Особо опасная болезнь, характеризуется лихорадкой, сыпью на коже и слизистых оболочках, оставляет рубцы
+					</p>
+				</div>
+				<div class="epidemic-block"
+				data-aos="fade-down"
+				data-aos-duration="1000"
+				data-aos-easing="linear">
+					<span>
+						<img src="img/covid.png" alt="">
+					</span>
+					<h3>Covid-19</h3>
+					<p>
+						Острая респираторная инфекция, характеризуется температурой, утомляемостью, сухостью, кашлем
+					</p>
+				</div>
+				<div class="epidemic-block">
+					<span>
+						<img src="img/syphilis.png" alt="">
+					</span>
+					<h3>Сифилис</h3>
+					<p>
+						Хроническое венерическое
+						заболевание, вызывает
+						поражение кожи, слизистых
+						оболочек внутрених органов
+					</p>
+				</div>
+				<div class="epidemic-block">
+					<span>
+						<img src="img/spanish.png" alt="">
+					</span>
+					<h3>Испанка</h3>
+					<p>
+						Самая массова эпидемия в
+						истории человечества,
+						вызывает резкое повышение
+						температуры, боли в голове
+					</p>
+				</div>
+				<div class="epidemic-block">
+					<span>
+						<img src="img/typhus.png" alt="">
+					</span>
+					<h3>Тиф</h3>
+					<p>
+						Собирательное название множества инфекицй, вызывает нарушение сознания на фоне сопровождающей лихорадки
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="history" id="history">
+		<div class="container">
+			<h2
+			data-aos="fade-right"
+			data-aos-duration="800"
+			data-aos-easing="linear">
+			историй эпидемий</h2>
+			<div class="table-wrapper"
+			data-aos="zoom-in"
+			data-aos-duration="1000"
+			data-aos-easing="linear">
+				<div class="table-body">
+					<div class="table-column">
+						<div class="column-flex">
+							<div class="column-block table1"
+							data-aos="flip-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								<span>
+									<img src="img/table-img1.png" alt="" class="green1 green">
+									<img src="img/table-white1.png" alt="" class="white1 white">
+								</span>
+								<h3>оспа</h3>
+							</div>
+							<div class="column-block table2"
+							data-aos="flip-right"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								<span>
+									<img src="img/table-img2.png" alt="" class="green2 green">
+									<img src="img/table-white2.png" alt="" class="white2 white">
+								</span>
+								<h3>СИФИЛИС</h3>
+							</div>
+						</div>
+						<div class="column-flex">
+							<div class="column-block table3"
+							data-aos="flip-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								<span>
+									<img src="img/table-img3.png" alt="" class="green3 green">
+									<img src="img/table-white3.png" alt="" class="white3 white">
+								</span>
+								<h3>оспа</h3>
+							</div>
+							<div class="column-block table4"
+							data-aos="flip-right"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								<span>
+									<img src="img/table-img4.png" alt="" class="green4 green">
+									<img src="img/table-white4.png" alt="" class="white4 white">
+								</span>
+								<h3>СИФИЛИС</h3>
+							</div>
+						</div>
+						<div class="column-flex column-border">
+							<div class="column-block table5"
+							data-aos="flip-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								<span>
+									<img src="img/table-img5.png" alt="" class="green5 green">
+									<img src="img/table-white5.png" alt="" class="white5 white">
+								</span>
+								<h3>оспа</h3>
+							</div>
+							<div class="column-block table6"
+							data-aos="flip-right"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								<span>
+									<img src="img/table-img6.png" alt="" class="green6 green">
+									<img src="img/table-white6.png" alt="" class="white6 white">
+								</span>
+								<h3>СИФИЛИС</h3>
+							</div>
+						</div>
+						<div class="column-green table7"
+							data-aos="flip-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+							<span>
+								<img src="img/green-img.png" alt="" class="white7 white">
+								<img src="img/table-green7.png" alt="" class="green7 green">
+							</span>
+							<h3>COvid - 19</h3>
+						</div>
+					</div>
+					<div class="table-text">
+						<div class="occurrence-text">
+							<h4
+							data-aos="fade-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+							Возникновение эпидемии</h4>
+							<p
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								Коронавирусы – это огромное семейство вирусов, которое насчитывает десятки видов. Обычно они поражают животных, но иногда вирусы мутируют и могут вызвать заболевание и у человека. Впервые один из коронавирусов обнаружили у человека еще в середине 20 века. Многие коронавирусы постоянно циркулируют в окружающей среде и не вызывают заболеваний сильнее, чем обычная простуда. Около 80% людей имеют антитела к тем или иным видам коронавирусов. Вероятно, многие люди уже перенесли болезнь в легкой форме, приняв ее за обычную простуду. Новый штамм коронавируса COVID-19 впервые вызвал такую масштабную пандемию, охватившую многие страны, первой из них стал Китай.
+							</p>
+						</div>
+						<div class="distribution-text">
+							<h4
+							data-aos="fade-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+							Распространение в россии</h4>
+							<p
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								31 января на территории РФ выявлено двое больных новой инфекцией коронавируса - в Забайкальском крае и Тюменской области. Заболевшие - граждане Китая. Они находятся под жестким наблюдением, изолированы, им оказывается необходимая помощь. Поздне на протяжении всего года инфекция распространилася по все территории РФ, из-за чего многие организации, как государственные, так и частные вынужднены были объявить карантин.
+							</p>
+						</div>
+						<div class="text-fight">
+							<h4
+							data-aos="fade-left"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+							Способы борьбы</h4>
+							<p
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								Объявление карантина гос. организациям и частным предприятиям, массовый
+                                переход на режим самоизоляции
+							</p>
+							<p
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								В 2020 году государством было выделено 200 млн. рублей на обеспечение 
+                                работы мобильных медбригад, для лечения больных коронавирусом
+							</p>
+							<p
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1000">
+								Ускоренная процедура получения разрешения на использования медтоваров
+                                и лекарств для лечения больных с коронавирусом
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="symptoms" id="symptoms">
+		<div class="container">
+			<h2
+			data-aos="fade-right"
+			data-aos-duration="1000"
+			data-aos-easing="linear">
+			Симптомы заболевания</h2>
+			<div class="symptoms-wrapper">
+				<div class="symptoms-body">
+					<div class="symptoms-column symptoms-column-first">
+						<div class="symptoms-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear">
+							<span><img src="img/temperature.png" alt=""></span>
+							<div class="symptoms-text">
+								<h3>Повышенная температура</h3>
+								<p>
+									Повышенная температура тела
+                                    более чем в 90% случаев является
+                                    первым симптомом заболевания вирусом
+								</p>
+							</div>
+						</div>
+						<div class="symptoms-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="800">
+							<span><img src="img/coughing.png" alt=""></span>
+							<div class="symptoms-text">
+								<h3>кашель</h3>
+								<p>
+									Сухой или с небольшим колличеством
+                                    мокроты кашель более чем в 80% случаев
+                                    присутствует у заболеваемого коронавирусом
+								</p>
+							</div>
+						</div>
+						<div class="symptoms-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="1600">
+							<span><img src="img/spray.png" alt=""></span>
+							<div class="symptoms-text spray-text">
+								<h3>Воспаление горла</h3>
+								<p>
+									Воспаление горла является типичным признаком
+                                    заболевания коронавирусной инфекцией
+								</p>
+							</div>
+						</div>
+						<div class="symptoms-button"
+						data-aos="flip-down"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="1600">
+							<a href="#" class="symptoms-btn">Подробнее</a>
+						</div>
+						<img src="img/symptoms1.png" alt="" class="symptoms1">
+						<img src="img/symptoms2.png" alt="" class="symptoms2">
+					</div>
+					<div class="symptoms-column symptoms-column-second">
+						<div class="symptoms-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear">
+							<span><img src="img/smelling.png" alt=""></span>
+							<div class="symptoms-text smelling-text">
+								<h3>Затрудненное дыхание</h3>
+								<p>
+									Затрудненое дыхание или попросту
+                                    говоря ‘’одышка’’ не так что проявлется
+                                    у заболевшего, однако стоит задуматься
+								</p>
+							</div>
+						</div>
+						<div class="symptoms-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="800">
+							<span><img src="img/blood.png" alt=""></span>
+							<div class="symptoms-text">
+								<h3>Насморк</h3>
+								<p>
+									Насморк является неотъемлемой причиной
+                                    заболевания любой вирусной инфекцией,
+                                    поэтому лечиться необходимо сразу
+								</p>
+							</div>
+						</div>
+						<div class="symptoms-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="1600">
+							<span><img src="img/extensors.png" alt=""></span>
+							<div class="symptoms-text extensors-text">
+								<h3>Боль в теле</h3>
+								<p>
+									Не явлется частым признаком заболевания,
+                                    однако стоит обратиться к врачу немедленно
+								</p>
+							</div>
+						</div>
+						<img src="img/symptoms3.png" alt="" class="symptoms3">
+					</div>
+					<div class="doctor-two-img">
+					     <img src="img/doctor-two.png" alt="" class="doctor-two">
+					     <img src="img/symptoms4.png" alt="" class="symptoms4">
+					</div>
+				</div>
+			</div>
+			<div class="symptoms-button symptoms-button-two">
+				<a href="#" class="symptoms-btn"
+				data-aos="flip-down"
+				data-aos-duration="800"
+				data-aos-easing="linear"
+				data-aos-delay="1600">Подробнее</a>
+			</div>
+		</div>
+	</section>
+	<section class="statistics" id="statistics">
+		<div class="container">
+			<h2
+			data-aos="fade-right"
+			data-aos-duration="1000"
+			data-aos-easing="linear">Статистика заболеваний</h2>
+			<p
+			data-aos="fade-left"
+			data-aos-duration="1000"
+			data-aos-easing="linear"
+			data-aos-delay="1000">
+				Представленная диаграмма отражает темпы роста
+                заболеваемости COVID-19 на территории РФ, 
+                точные цифры зараженных не известны
+			</p>
+			<img src="img/chart.png" alt="" class="chart"
+			data-aos="zoom-out-up"
+			data-aos-duration="1000"
+			data-aos-easing="linear"
+			data-aos-delay="1000">
+			<div class="statistics-button">
+				<a href="#" class="statistics-btn"
+				data-aos="flip-down"
+				data-aos-duration="800"
+				data-aos-easing="linear"
+				data-aos-delay="1600">Ознакомиться</a>
+			</div>
+		</div>
+	</section>
+	<section class="prevention" id="prevention">
+		<div class="container">
+			<h2
+			data-aos="fade-right"
+			data-aos-duration="1000"
+			data-aos-easing="linear">
+			Профилактика эпидемии</h2>
+			<div class="prevention-wrapper">
+				<div class="prevention-body">
+					<div class="prevention-column prevention-column-first">
+						<div class="prevention-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear">
+							<span><img src="img/prevention-img1.png" alt=""></span>
+							<div class="prevention-text">
+								<h3>Носить маску</h3>
+								<p>
+									Используйте медецинскую маску,
+                                    желательно менять каждые 2 часа
+								</p>
+							</div>
+						</div>
+						<div class="prevention-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="800">
+							<span><img src="img/prevention-img2.png" alt=""></span>
+							<div class="prevention-text">
+								<h3>Мыть руки</h3>
+								<p>
+									Тщательно мойте руки с мылом
+                                    после посещения улицы или перед
+                                    любым приемом пищи, это не сложно
+								</p>
+							</div>
+						</div>
+						<div class="prevention-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="1600">
+							<span><img src="img/prevention-img3.png" alt=""></span>
+							<div class="prevention-text">
+								<h3>Уточнить обстановку</h3>
+								<p>
+									Уточняйте эпидемиологическую
+                                    обстановку при планировании поездки
+								</p>
+							</div>
+						</div>
+						<div class="prevention-button">
+							<a href="#" class="prevention-btn"
+							data-aos="flip-down"
+							data-aos-duration="800"
+							data-aos-easing="linear"
+							data-aos-delay="1600">Подробнее</a>
+						</div>
+						<img src="img/prevention-virus1.png" alt="" class="prevention1">
+						<img src="img/prevention-virus2.png" alt="" class="prevention2">
+					</div>
+					<div class="prevention-column prevention-column-second">
+						<div class="prevention-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear">
+							<span><img src="img/prevention-img4.png" alt=""></span>
+							<div class="prevention-text">
+								<h3>Не посещать</h3>
+								<p>
+									Избегать посещения мест
+                                    массового скопления людей, не посещать ТЦ
+								</p>
+							</div>
+						</div>
+						<div class="prevention-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="800">
+							<span><img src="img/prevention-img5.png" alt=""></span>
+							<div class="prevention-text">
+								<h3>Избегать</h3>
+								<p>
+									Избегайте близкого контакта
+                                    с людьми, имеющими признаки
+                                    заболевания данной инфекцией  
+								</p>
+							</div>
+						</div>
+						<div class="prevention-block"
+						data-aos="fade-up"
+						data-aos-duration="800"
+						data-aos-easing="linear"
+						data-aos-delay="1600">
+							<span><img src="img/prevention-img3.png" alt=""></span>
+							<div class="prevention-text">
+								<h3>Не касаться</h3>
+								<p>
+									Не касайтесь грязными руками
+                                    глаз, рта, слизистой, не чесать свое тело 
+								</p>
+							</div>
+						</div>
+						<img src="img/prevention-virus3.png" alt="" class="prevention3">
+						<img src="img/prevention-virus4.png" alt="" class="prevention4">
+					</div>
+				</div>
+				<div class="phone">
+					<img src="img/phone.png" alt="" class="phone-img"
+					data-aos="zoom-in-left"
+					data-aos-duration="1000"
+					data-aos-easing="linear"
+					data-aos-delay="1600">
+					<a href="#" class="phone-btn"
+					data-aos="flip-down"
+					data-aos-duration="800"
+					data-aos-easing="linear"
+					data-aos-delay="2400">Сохрани в закладки</a>
+				</div>
+			</div>
+			<div class="prevention-button prevention-button-two">
+				<a href="#" class="prevention-btn"
+				data-aos="flip-down"
+				data-aos-duration="800"
+				data-aos-easing="linear"
+				data-aos-delay="1600">Подробнее</a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-body">
+				<div class="footer-left"
+				data-aos="fade-up"
+    			data-aos-anchor-placement="bottom-center"
+    			data-aos-duration="1500"
+    			data-aos-easing="linear">
+					<div class="header-logo">
+						<img src="img/logo.png" alt="">
+						<div class="logo-text">
+							<span>plague History</span>
+							<p>История заболеваний</p>
+						</div>
+					</div>
+					<div class="footer-button">
+						<a href="#" class="footer-btn">Ознакомиться</a>
+					</div>
+				</div>
+				<div class="footer-menu"
+				data-aos="fade-down"
+    			data-aos-anchor-placement="bottom-center"
+    			data-aos-duration="1500"
+    			data-aos-easing="linear">
+					<h3>Полезная информация</h3>
+					<a href="#">Статистика заболеваний</a>
+					<a href="#">Полная информация</a>
+					<a href="#">Офицальный сайт</a>
+				</div>
+				<div class="footer-menu"
+				data-aos="fade-up"
+    			data-aos-anchor-placement="bottom-center"
+    			data-aos-duration="1500"
+    			data-aos-easing="linear">
+					<h3>Профилактические памятки</h3>
+					<a href="#">Рекомендации по эпидемии</a>
+					<a href="#">Профилактика каждый день</a>
+					<a href="#">Укрепление имунитета</a>
+				</div>
+				<div class="footer-menu"
+				data-aos="fade-down"
+    			data-aos-anchor-placement="bottom-center"
+    			data-aos-duration="1500"
+    			data-aos-easing="linear">
+					<h3>Финансовая картина</h3>
+					<a href="#">Виды помощи заболевшим</a>
+					<a href="#">Льготы государства</a>
+					<a href="#">Потери государства</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  		AOS.init();
+	</script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

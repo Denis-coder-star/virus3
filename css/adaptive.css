@@ -1,0 +1,578 @@
+@media screen and (max-width: 1630px) {
+	.phone {
+		margin-left: 20px !important;
+	}
+	.prevention4 {
+		right: -70px !important;
+	}
+	.prevention3 {
+		right: 0 !important;
+	}
+	.symptoms4 {
+		left: 280px !important;
+	}
+	.slick-dots {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.doctor-two-img {
+		margin-left: 0px !important;
+	}
+	.doctor-two {
+		display: none !important;
+	}
+	.symptoms {
+		background: url(../img/second-bg2.jpg) no-repeat center top / cover !important;
+	}
+	.symptoms4 {
+		left: 100px !important;
+	}
+	.symptoms1 {
+		left: 0 !important;
+	}
+	.virus4 {
+		bottom: 220px !important;
+		right: -600px !important;
+	}
+	.virus1 {
+		left: 50px !important;
+	}
+	.slick-prev {
+		left: 30px !important;
+	}
+	.slick-next {
+		right: 30px !important;
+	}
+	.epidemic-body {
+		margin: 0 auto !important;
+		margin-top: 70px !important;
+	}
+	.phone-img {
+		width: 95% !important;
+	}
+	.phone {
+		margin-top: -100px !important;
+	}
+	.phone-btn {
+		left: 60px !important;
+		bottom: 15px !important;
+	}
+	.prevention1 {
+		left: 220px !important;
+		bottom: 0px !important;
+	}
+	.prevention3 {
+		width: 25% !important;
+		bottom: 50px !important;
+	}
+	.symptoms3 {
+		width: 25% !important;
+		right: 70px !important;
+		bottom: 20px !important;
+	}
+	.slick-dots {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 1380px) {
+	.container {
+		width: 1170px !important;
+		padding: 0 15px !important;
+	}
+	.slick-prev,
+	.slick-next {
+		display: none !important;
+	}
+	.epidemic-body {
+		padding-left: 50px !important;
+	}
+	.chuma {
+		right: -500px !important;
+	}
+	.virus4  {
+		right: -530px !important;
+		bottom: 250px !important;
+	}
+	.virus3 {
+		top: -270px !important;
+		right: -330px !important;
+	}
+	.occurrence-text p,
+	.distribution-text p,
+	.text-fight p {
+		width: 550px !important;
+	}
+	.column-block,
+	.column-green {
+		height: 264.5px !important;
+		padding-top: 46px !important;
+	}
+	.table-text {
+		padding: 26px 0 20px 30px !important;
+	}
+	.phone {
+		display: none !important;
+	}
+	.prevention1,
+	.prevention2,
+	.prevention3,
+	.prevention4,
+	.symptoms1,
+	.symptoms2,
+	.symptoms3,
+	.symptoms4,
+	.virus1,
+	.virus2,
+	.virus3,
+	.virus4,
+	.covid,
+	.chuma {
+		display: none !important;
+	}
+	.symptoms {
+		background: url(../img/second-bg.jpg) no-repeat center top / cover !important;
+	}
+	.header {
+		background: url(../img/first-bg.jpg) no-repeat center top / cover !important;
+		padding-bottom: 180px !important;
+	}
+	.doctor {
+		display: block !important;
+		margin-left: -280px;
+		margin-bottom: -86px;
+	}
+	.epidemic {
+		padding-bottom: 180px !important;
+	}
+	.prevention-body,
+	.prevention-btn,
+	.symptoms-btn {
+		margin: 0 auto;
+	}
+	.prevention-btn,
+	.symptoms-btn {
+		margin-top: 75px !important;
+	}
+	.prevention-button,
+	.symptoms-button {
+		display: none !important;
+	}
+	.prevention-button-two,
+	.symptoms-button-two {
+		display: block !important;
+	}
+	.prevention,
+	.symptoms {
+		padding-top: 200px !important;
+	}
+	.symptoms {
+		padding-bottom: 160px !important;
+	}
+	.header-offer h1 {
+		font-size: 58px !important;
+	}
+	.header-offer p {
+		font-size: 22px !important;
+	}
+	.symptoms-body {
+		justify-content: center;
+	}
+	.doctor-two-img {
+		display: none !important;
+	}
+	.slick-dots {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 968px !important;
+		padding: 0 15px;
+	}
+	.doctor {
+		display: none !important;
+	}
+	.header-body {
+		display: block !important;
+	}
+	.header-logo,
+	.menu {
+		justify-content: center;
+		margin-bottom: 30px !important;
+	}
+	.menu-btn {
+		margin: 0 auto;
+	}
+	.header-offer {
+		margin-top: 75px !important;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.header-offer h1 {
+		margin: 0 auto;
+	}
+	.offer-buttons {
+		justify-content: center;
+	}
+	.table-column {
+		display: flex;
+	}
+	.column-block,
+	.column-green {
+		width: 135px !important;
+		height: 135px !important;
+		border-bottom: 1px solid #d3d3d3 !important;
+		border-radius: 0px !important;
+		padding-top: 14px !important;
+	}
+	.column-green {
+		border-radius: 0 30px 0 0 !important;
+	}
+	.column-block span,
+	.column-green span {
+		width: 75px !important;
+		height: 75px !important;
+	}
+	.column-block h3,
+	.column-green h3 {
+		font-size: 26px !important;
+	}
+	.occurrence-text p,
+	.distribution-text p,
+	.text-fight p {
+		width: 90% !important;
+	}
+	.table-body {
+		display: block !important;
+	}
+	.distribution-text {
+		margin-top: 30px !important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px !important;
+		padding: 0 15px;
+	}
+	.epidemic-block span {
+		width: 180px !important;
+		height: 180px !important;
+	}
+	.epidemic-block span img {
+		width: 50% !important;
+	}
+	.epidemic-block span:after {
+		height: 18px !important;
+		width: 178px !important;
+	}
+	.epidemic-block h3 {
+		font-size: 34px !important;
+		width: 180px !important;
+	}
+	.epidemic-block p {
+		width: 180px !important;
+	}
+	.table-column,
+	.column-flex {
+		-webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+	}
+	.symptoms-body,
+	.prevention-body {
+		display: block !important;
+	}
+	.symptoms-column-second,
+	.prevention-column-second {
+		margin-left: 0 !important;
+		margin-top: 53px !important;
+	}
+	.symptoms-column-second p {
+ 		width: 360px !important;
+	}
+	.symptoms-block {
+		justify-content: center !important;
+	}
+	.footer-body {
+		display: block !important;
+	}
+	.footer-btn {
+		margin: 0 auto;
+		margin-top: 30px !important;
+	}
+	.footer-menu {
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 30px !important;
+	}
+	.offer-btn,
+	.symptoms-btn,
+	.statistics-btn,
+	.prevention-btn {
+		width: 200px !important;
+		height: 60px !important;
+		font-size: 20px !important;
+		box-shadow: 0px 3px 15px 0px rgba(1, 153, 115, 0.33) !important;
+	}
+	.symptoms-btn,
+	.prevention-btn {
+		margin-top: 50px !important;
+	}
+	.statistics {
+		padding-bottom: 20px !important;
+		padding-top: 60px !important;
+	}
+	.history {
+		padding-bottom: 60px !important;
+	}
+	.epidemic {
+		padding-top: 60px !important;
+	}
+	.column-green {
+		border-radius: 0 !important;
+	}
+	.column-flex {
+		width: 50% !important;
+	}
+	.column-block {
+		width: 50% !important;
+	}
+	.column-green {
+		width: 50% !important;
+	}
+	.table4 {
+		border-radius: 0 30px 0 0;
+		border-right: 0 !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px !important;
+		padding: 0 15px;
+	}
+	.header-offer h1 {
+		font-size: 48px !important;
+	}
+	.header-offer p {
+		width: 500px !important;
+	}
+	.slick-dots {
+		bottom: -65px !important;
+	}
+	.epidemic {
+		padding-bottom: 140px !important;
+	}
+	.container h2 {
+		font-size: 48px !important;
+	}
+	.table-wrapper {
+		margin-top: 60px !important;
+	}
+	.history {
+		padding-bottom: 30px !important;
+	}
+	.epidemic,
+	.statistics {
+		padding-top: 30px !important;
+	}
+	.statistics p {
+		font-size: 24px !important;
+		width: 500px !important;
+	}
+	.slick-dots li button {
+		width: 20px !important;
+		height: 20px !important;
+	}
+	.menu-button {
+		display: none !important;
+	}
+	.header-body {
+		display: flex !important;
+		justify-content: space-between !important;
+		align-items: center !important;
+		margin: 0 auto;
+	}
+	.header-logo {
+		margin-bottom: 0 !important;
+	}
+	.burger-menu-wrapper {
+		display: block !important;
+	}
+	.menu {
+		display: block !important;
+		text-align: center;
+		margin-bottom: 0 !important;
+		padding-top: 20%;
+	}
+	.menu__item {
+		margin-left: 0 !important;
+		margin-top: 20px;
+	}
+	.menu__link {
+		color: white !important;
+		display: block;
+		font-size: 24px !important;
+		width: 100%;
+		padding: 15px 0;
+	}
+	.menu__link:hover {
+		background: white;
+		color: #019973 !important;
+	}
+	.menu__link:after {
+		display: none !important;
+	}
+	.menu-mobile {
+  		z-index: 99;
+  		width: 100%;
+  		height: 100vh;
+  		left: -100%;
+  		top: 0;
+  		position: fixed;
+  		background: #019973;
+        -webkit-transition: 0.3s linear;
+        -o-transition: 0.3s linear;
+        transition: 0.3s linear;
+        border-bottom: 1px solid #f6f6f6;
+        opacity: 0.8;
+	}
+	.menu-mobile-active {
+  		left: 0;
+  		transition: 0.3s linear;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.container {
+		width: 90% !important;
+	}
+	.header-logo img {
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.logo-text span {
+		font-size: 16px !important;
+	}
+	.logo-text p {
+		font-size: 12px !important;
+	}
+	.logo-text {
+		margin-left: 12px !important;
+	}
+	.header-offer h1 {
+		font-size: 34px !important;
+		width: 90% !important;
+		line-height: 1.4em !important;
+	}
+	.header-offer p {
+		width: 90% !important;
+		font-size: 20px !important;
+		margin: 0 auto;
+	}
+	.offer-buttons {
+		display: block !important;
+	}
+	.offer-btn {
+		margin: 0 !important;
+		margin: 0 auto !important;
+	}
+	.offer-btn-two {
+		margin-top: 20px !important;
+	}
+	.container h2 {
+		font-size: 38px !important;
+	}
+	.slick-dots li button {
+		width: 15px !important;
+		height: 15px !important;
+	}
+	.slick-dots li {
+		margin: 0 5px !important;
+	}
+	.epidemic-body {
+		padding-left: 70px !important;
+	}
+	.offer-btn,
+	.symptoms-btn,
+	.statistics-btn,
+	.prevention-btn {
+		width: 160px !important;
+		height: 50px !important;
+		font-size: 18px !important;
+		box-shadow: 0px 3px 15px 0px rgba(1, 153, 115, 0.33) !important;
+	}
+	.occurrence-text h4,
+	.distribution-text h4,
+	.text-fight h4 {
+		font-size: 26px !important;
+		line-height: 1.3em;
+	}
+	.symptoms-block,
+	.prevention-block {
+		display: block !important;
+		text-align: center;
+	}
+	.symptoms-block span,
+	.prevention-block span {
+		margin: 0 auto;
+	}
+	.symptoms-text p,
+	.symptoms-text h3,
+	.prevention-text h3,
+	.prevention-text p {
+		width: 90% !important;
+	}
+	.symptoms-text,
+	.prevention-text {
+		margin-top: 20px;
+	}
+	.symptoms-text p,
+	.prevention-text p {
+		margin-top: 10px !important;
+	}
+	.symptoms-body,
+	.prevention-body {
+		margin-top: 40px !important;
+	}
+	.symptoms {
+		padding-bottom: 200px !important;
+	}
+	.symptoms-btn {
+		margin-top: 30px !important;
+	}
+	.statistics p {
+		width: 90% !important;
+		font-size: 18px !important;
+	}
+	.chart {
+		margin-top: 20px !important;
+	}
+	.footer-menu h3 {
+		font-size: 22px !important;
+	}
+	.footer-menu a {
+		font-size: 16px !important;
+	}
+	.history {
+		display: none !important;
+	}
+	.epidemic {
+		padding-bottom: 40px !important;
+	}
+	.menu {
+		padding-top: 30% !important;
+	}
+	.prevention,
+	.symptoms {
+		padding-top: 220px !important;
+	}
+	.preloader p {
+		top: 68% !important;
+	}
+}
